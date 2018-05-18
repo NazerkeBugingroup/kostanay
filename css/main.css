@@ -1028,4 +1028,6 @@ input[type=checkbox]:checked:after {
   .item-inter {
     height: 280px; }
   .item-inter > div p {
-    font-size: 32px; } }
+    font-size: 32px; }
+  .sorts a {
+    margin: 10px 10px 0 0; } }
