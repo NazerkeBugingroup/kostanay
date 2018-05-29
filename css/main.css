@@ -1145,6 +1145,30 @@ input[type=checkbox]:checked:after {
   display: inline-block;
   vertical-align: middle; }
 
+.lang-bg a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px; }
+
+.lang-bg .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  min-width: inherit; }
+
+.lang-bg .dropdown-menu > li > a {
+  padding: 0;
+  line-height: 32px;
+  text-align: center;
+  color: #fff; }
+
+.lang-ru {
+  background-image: url("../img/icons/log-ru.png"); }
+
 @media (max-width: 991px) {
   .tilte-slid {
     font-size: 50px; }
@@ -1269,4 +1293,8 @@ input[type=checkbox]:checked:after {
     max-width: calc(100% - 40px);
     padding-right: 0; }
   .place.place-li .place-body .place-rating {
-    position: static; } }
+    position: static; }
+  .lang-bg .dropdown-menu {
+    top: 40px;
+    bottom: auto;
+    left: 10px; } }
